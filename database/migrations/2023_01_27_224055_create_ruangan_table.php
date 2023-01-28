@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('ruangan', function (Blueprint $table) {
             $table->id();
             $table->string('nama_ruangan');
-            $table->string('bangunan_id');
+            $table->string('lokasi_ruangan');
             $table->string('kode_ruangan');
             $table->string('lebar_ruangan');
             $table->string('panjang_ruangan');
